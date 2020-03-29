@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Swoosh</string>
+    <string name="background_image">background image</string>
+    <string name="logo_image">logo image</string>
+    <string name="liga_desejada">Liga Desejada:</string>
+    <string name="homens">Homens</string>
+    <string name="mulheres">Mulheres</string>
+    <string name="unisex">Unisex</string>
+    <string name="pr_ximo">PRÓXIMO</string>
+    <string name="entre_no_jogo">ENTRE NO JOGO</string>
+    <string name="encontre_uma_galera_e_nao_fique_de_fora">ENCONTRE UMA GALERA E NAO FIQUE DE FORA</string>
+    <string name="encontre_um_time_na_sua_cidade_e_domine_a_liga">ENCONTRE UM TIME NA SUA CIDADE E DOMINE A LIGA.</string>
+    <string name="comece_agora">COMECE AGORA</string>
+    <string name="background_image1">Background image</string>
 </resources>
