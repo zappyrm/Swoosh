@@ -45,54 +45,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
-
-        <ToggleButton
-            android:id="@+id/toggleButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/swoosh_toggle"
-            android:fontFamily="@font/montserrat"
-            android:text="@string/homens"
-            android:textColor="#FFFFFF"
-            android:textOff="@string/homens"
-            android:textOn="@string/homens" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/swoosh_toggle"
-            android:fontFamily="@font/montserrat"
-            android:text="@string/mulheres"
-            android:textColor="#FFFFFF"
-            android:textOff="@string/mulheres"
-            android:textOn="@string/mulheres"
-            tools:text="@string/mulheres" />
-
-        <ToggleButton
-            android:id="@+id/toggleButton3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/swoosh_toggle"
-            android:fontFamily="@font/montserrat"
-            android:text="@string/unisex"
-            android:textColor="#FFFFFF"
-            android:textOff="@string/unisex"
-            android:textOn="@string/unisex" />
-    </LinearLayout>
-
     <Button
         android:id="@+id/button3"
         android:layout_width="0dp"
@@ -108,4 +60,48 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/swoosh_toggle"
+            android:text="ToggleButton"
+            android:textColor="#FFFFFF"
+            android:textOff="@string/homens"
+            tools:text="Homens" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/swoosh_toggle"
+            android:text="@string/mulheres"
+            android:textColor="#FFFFFF"
+            android:textOff="Mulheres"
+            tools:text="Mulheres" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/swoosh_toggle"
+            android:text="Unisex"
+            android:textColor="#FFFFFF"
+            android:textOff="Unisex"
+            tools:text="@string/unisex" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
