@@ -77,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
-            android:text="ToggleButton"
+            android:text="@string/togglebutton"
             android:textColor="#FFFFFF"
             android:textOff="@string/homens"
             tools:text="Homens" />
@@ -91,7 +91,7 @@
             android:background="@drawable/swoosh_toggle"
             android:text="@string/mulheres"
             android:textColor="#FFFFFF"
-            android:textOff="Mulheres"
+            android:textOff="@string/mulheres"
             tools:text="Mulheres" />
 
         <ToggleButton
@@ -99,9 +99,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
-            android:text="Unisex"
+            android:text="@string/unisex"
             android:textColor="#FFFFFF"
-            android:textOff="Unisex"
+            android:textOff="@string/unisex"
             tools:text="@string/unisex" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
