@@ -13,4 +13,6 @@
     <string name="comece_agora">COMECE AGORA</string>
     <string name="background_image1">Background image</string>
     <string name="togglebutton">ToggleButton</string>
+    <string name="todo">TODO</string>
+    <string name="eu_sou">Eu sou</string>
 </resources>

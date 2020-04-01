@@ -3,10 +3,10 @@ package com.example.swoosh
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class LeagueActivity : BaseActivity() {
+class SkilActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_league)
+        setContentView(R.layout.activity_skil)
     }
 }
